@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<!-- Trigger/Open The Modal -->
+<button id="myBtn">Open Modal</button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+        <button class="close">&times;</button>
+        <h1>Lets Discuss Your Project</h1>
+        <p>Please provide the details below & let us send you a Price Quote</p>
+
+        <form action="user.php" method="POST">
+            <input type="text" name="name" placeholder="Full name">
+            <input type="email" name="email" placeholder="Email">
+            <input type="tel" name="phone" placeholder="Phone">
+            <textarea name="question" rows="5" placeholder="Describe Your Project To Get Quotation"></textarea>
+            <h3>Add some photos:</h3>
+            <small>Drop you filees here or upload manually</small>
+            <input type="submit" value="Send Me A Price Qoute">
+        </form>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
